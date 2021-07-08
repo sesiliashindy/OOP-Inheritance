@@ -1,7 +1,7 @@
 public class Lingkaran {
     int r;
     int d;
-    // double hasil;
+    double hasil;
     
     public Lingkaran() {
 
@@ -9,9 +9,7 @@ public class Lingkaran {
     public Lingkaran(int r) {
         this.r = r;
     }
-    public int getR() {
-        return r;
-    }
+
     public void setR(int r) {
         this.r = r;
     }
@@ -25,9 +23,9 @@ public class Lingkaran {
     public void getKeliling(){
         System.out.println("Keliling Lingkaran: ");
         if (r%7==0) {
-            System.out.println(2*22*r/7);
+            System.out.println(hasil= 2*22*r/7);
         } else {
-            System.out.println(2*3.14*r);
+            System.out.println(hasil= 2*3.14*r);
         }
     }
     

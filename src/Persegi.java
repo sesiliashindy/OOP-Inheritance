@@ -1,6 +1,6 @@
 public class Persegi {
     int sisi;
-
+    
     public Persegi(int sisi){
         this.sisi = sisi;
     }

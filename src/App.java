@@ -8,7 +8,7 @@ public class App {
         Prisma prisma = new Prisma();
         Kubus kubus = new Kubus();
         Bola bola = new Bola();
-        Boolean repeat = true;
+        Boolean repeat;
         Scanner input = new Scanner(System.in);
 
         do{
@@ -56,18 +56,17 @@ public class App {
                 case 4:
                     System.out.println("Nilai Alas Prisma= ");
                     int inputAlasPrisma = input.nextInt();
-                    segitiga.setAlas(inputAlasPrisma);
+                    prisma.setAlas(inputAlasPrisma);
                     System.out.println("Nilai Tinggi Alas Prisma= ");
                     int inputTinggiAlas = input.nextInt();
-                    segitiga.setTinggi(inputTinggiAlas);
+                    prisma.setTinggi(inputTinggiAlas);
                     System.out.println("Nilai Sisi Alas Prisma= ");
                     int inputSisiAlas = input.nextInt();
-                    segitiga.setSisi(inputSisiAlas);
+                    prisma.setSisi(inputSisiAlas);
                     System.out.println("Nilai Tinggi Prisma= ");
                     int inputTinggiPrisma = input.nextInt();
-                    prisma.setSisi(inputTinggiPrisma);
+                    prisma.setTinggiPrisma(inputTinggiPrisma);
 
-                    // prisma.getLuas();
                     prisma.getVolume();
                     break;
                 case 5:
@@ -86,7 +85,7 @@ public class App {
                 case 7:
                     System.exit(0);
                 default:
-                    System.out.println("Invalid Number");
+                    System.out.println("Invali3d Number");
                     break;
             } 
             System.out.println("Apakah anda ingin menginput ulang (Y/N)? ");
