@@ -34,7 +34,7 @@ public class Lingkaran {
         if (r%7==0) {
             System.out.println(hasil= 22*(Math.pow(r, 2)/7));
         } else {
-            System.out.println((hasil= 3.14)*(Math.pow(r, 2)));
+            System.out.println(Math.PI*(Math.pow(r, 2)));
         }
     }
 

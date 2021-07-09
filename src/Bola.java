@@ -5,7 +5,7 @@ public class Bola extends Lingkaran {
         if (r%7==0) {
             System.out.println(4*22*(Math.pow(r, 3)/7)/3);
         } else {
-            System.out.println(4*3.14*(Math.pow(r, 3))/3);
+            System.out.println(4*Math.PI*(Math.pow(r, 3))/3);
         }
     }
 }
