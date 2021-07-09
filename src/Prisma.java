@@ -1,18 +1,18 @@
 public class Prisma extends Segitiga{
-    int tinggiPrisma;
+    double tinggiPrisma;
+    double hasil;
 
-    public void setTinggiPrisma(int tinggiPrisma) {
+    public void setTinggiPrisma(double tinggiPrisma) {
         this.tinggiPrisma = tinggiPrisma;
     }
 
     public void getVolume(){
         System.out.println("Volume Prisma: ");
-        System.out.println(((alas*tinggi)/2)*tinggiPrisma);
+        System.out.println((luas()*tinggiPrisma));
     }
 
     // @Override
     // public void getLuas() {
-    //     System.out.println("Luas Alas Prisma");
     //     super.getLuas();
     // }
 

@@ -25,16 +25,16 @@ public class Lingkaran {
         if (r%7==0) {
             System.out.println(hasil= 2*22*r/7);
         } else {
-            System.out.println(hasil= 2*3.14*r);
+            System.out.println(hasil= 2*Math.PI*r );
         }
     }
     
     public void getLuas(){
         System.out.println("Luas Lingkaran: ");
         if (r%7==0) {
-            System.out.println(22*(Math.pow(r, 2)/7));
+            System.out.println(hasil= 22*(Math.pow(r, 2)/7));
         } else {
-            System.out.println(3.14*(Math.pow(r, 2)));
+            System.out.println((hasil= 3.14)*(Math.pow(r, 2)));
         }
     }
 

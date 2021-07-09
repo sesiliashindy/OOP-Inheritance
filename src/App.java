@@ -32,7 +32,7 @@ public class App {
                     System.out.println("Nilai Sisi Segitiga= ");
                     int inputSisiSegitiga = input.nextInt();
                     segitiga.setSisi(inputSisiSegitiga);
-
+                    
                     segitiga.getKeliling();
                     segitiga.getLuas();
                     break;
@@ -60,9 +60,6 @@ public class App {
                     System.out.println("Nilai Tinggi Alas Prisma= ");
                     int inputTinggiAlas = input.nextInt();
                     prisma.setTinggi(inputTinggiAlas);
-                    System.out.println("Nilai Sisi Alas Prisma= ");
-                    int inputSisiAlas = input.nextInt();
-                    prisma.setSisi(inputSisiAlas);
                     System.out.println("Nilai Tinggi Prisma= ");
                     int inputTinggiPrisma = input.nextInt();
                     prisma.setTinggiPrisma(inputTinggiPrisma);
